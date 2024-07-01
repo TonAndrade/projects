@@ -1,0 +1,11 @@
+version: "3"
+services:
+  db:
+    image: postgres:11-alpine
+    environment: 
+      POSTGRES_PASSWORD: workout
+      POSTGRES_USER: workout
+      POSTGRES_DB: workout
+    # A seção ports espera uma lista de valores, e o traço é a forma de indicar cada elemento dessa lista.
+    ports: 
+      - "5432:5432"
