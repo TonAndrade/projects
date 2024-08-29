@@ -1,1 +1,6 @@
+// Este arquivo contém regras que se aplicam exclusivamente a esta pasta em específico.
 
+Regra 1: uso restrito para ver e avaliar os dados.
+Regra 2: não considerar tais dados como úteis para projetos reais.
+Regra 3: pasta para aprendizado pessoal. Não compartilhar.
+Regra 4: os arquivos só podem ser vinculados por autenticação via token.
